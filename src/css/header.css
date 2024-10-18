@@ -1,0 +1,49 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-area: header;
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+    padding: 30px;
+    align-items: center;
+}
+
+.logo{
+    max-width: 200px;
+}
+
+.header nav ul{
+    display: flex;
+}
+
+.header nav a{
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.125rem;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+
+.header nav a:hover{
+    background: rgba(0, 0, 0, 0.09);
+}
+
+.header li{
+    margin-left: 18px;
+}
+
+@media (max-width: 760px){
+    .header{
+        grid-template-columns: auto;
+        width: 100%;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    .header nav a{
+        font-size: 0.8em;
+    }
+    .header li{
+        margin-left: 10px;
+    }
+}

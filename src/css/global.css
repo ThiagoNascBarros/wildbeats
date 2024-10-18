@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Vollkorn', Georgia, Tahoma, Arial, serif;
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
